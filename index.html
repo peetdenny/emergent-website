@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Real Returns | Coming Soon</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito+Sans:wght@300&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        @viewport {
+            width: device-width;
+            initial-scale: 1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+
+        .main-title {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 90px;
+            opacity: 0.8;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .signup-form {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .email-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #FFFFFF;
+            background: transparent;
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 12px;
+            background: #FFFFFF;
+            color: #000000;
+            border: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: opacity 0.2s ease;
+        }
+
+        .submit-button:hover {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                max-width: 80%;
+                margin-bottom: 30px;
+            }
+
+            .main-title {
+                font-size: 1.8rem;
+                padding: 0 20px;
+            }
+
+            .subtitle {
+                font-size: 1.25rem;
+                margin-bottom: 60px;
+            }
+
+            .signup-form {
+                width: 90%;
+                max-width: 350px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                max-width: 90%;
+                margin-bottom: 25px;
+            }
+
+            .main-title {
+                font-size: 1.5rem;
+                padding: 0 15px;
+                margin-bottom: 15px;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+                margin-bottom: 40px;
+            }
+
+            .email-input,
+            .submit-button {
+                padding: 10px;
+                font-size: 0.9rem;
+            }
+        }
+
+        .highlight {
+            color: #EF863F;
+        }
+    </style>
+</head>
+<body>
+    <img src="assets/images/color-logo.png" alt="Company Logo" class="logo">
+    <h1 class="main-title"><span class="highlight">Real</span> Returns, <span class="highlight">Real</span> Assets, <span class="highlight">Real</span> Impact</h1>
+    <p class="subtitle">Coming 2025</p>
+    <form class="signup-form">
+        <input type="email" class="email-input" placeholder="Enter your email" required>
+        <button type="submit" class="submit-button">Sign Up for Updates</button>
+    </form>
+</body>
+</html>
